@@ -1,5 +1,8 @@
 # PCAP-Analyzer-AI-Powered-Network-Issue-Detection-for-Trading-Systems
 
+## Demo: 
+![Demo Preview](https://github.com/prernabanthiya/PCAP-Analyzer-AI-Powered-Network-Issue-Detection-for-Trading-Systems/blob/main/demo.mp4.gif?raw=true)
+
 ## Project Overview 
 
 PCAP Analyzer is a Streamlit-based application designed to parse and analyze network packet capture (PCAP) files (and equivalent CSV exports) to identify critical issues in electronic trading environments. By leveraging Scapy for packet-level feature extraction and integrating a conversational AI assistant via OpenRouter, this tool helps Site Reliability Engineers (SREs), network engineers, and quant teams quickly diagnose anomalies such as retransmissions, duplicates, rejections, latency spikes, and disconnections.
@@ -31,6 +34,14 @@ __Interactive Dashboard:__
 - AI-Powered Insights: Ask natural-language questions (e.g., "Why are there retransmissions?") to a fine-tuned LLM via the OpenRouter API, with contextual sample packets in the prompt.
 
 - Modular Design: Separates parsing, feature computation, visualization, and AI logic for easy maintenance and extension.
+  
+## Tech Stack 
+- Layer: Tools/Tech
+- Frontend: Streamlit
+- Backend	Python: Scapy
+- AI/LLM: OpenRouter 
+- Data Handling: Pandas, NumPy
+- Visualization: Matplotlib, Seaborn, Plotly
 
 ## Prerequisites
 
@@ -55,6 +66,7 @@ __Interactive Dashboard:__
 5. Ask AI: Type a question about the data (e.g., cause of high latency), and the integrated LLM will provide explanations.
 
 
-## Demo: 
+
+
 
 
